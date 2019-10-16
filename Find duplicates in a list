@@ -1,0 +1,15 @@
+some_list = ['a','b','c','b','d','m','n','n']
+tmp = ''
+for letter in some_list:
+    if some_list.count(letter) >1:
+        if letter in tmp:
+            pass
+        else:
+            tmp += letter
+for letter in tmp:
+    print(f'{letter} is a duplicate one')
+    
+    
+output:
+b is a duplicate one
+n is a duplicate one
