@@ -1,0 +1,11 @@
+def highest_even(li):
+    li2=[]
+    for value in li:
+        if value % 2 == 0:
+            li2.append(value)
+    return max(li2)
+            
+highest_even([1,2,3,4,5,1,11,0])
+
+#output:
+#4
